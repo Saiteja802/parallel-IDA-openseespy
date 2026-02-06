@@ -1,3 +1,5 @@
+Please cite the following article if you are using this code: 'Sistla S, Chandramohan R, Sullivan TJ. Loss-oriented hazard-consistent incremental dynamic analysis. Structural Safety. 2026 Jan 28;102692.'
+
 General Notes: Incremental dynamic analysis using OpenSeespy and leader-follower architecture
 This document is intended to help users interested in conducting incremental dynamic analysis (IDA) using parallel computing. The example code (IDA_leader_follower.py) can be used to conduct IDA of a building model using the leader-follower architecture to efficiently run analysis in parallel. 
 The following packages are to be installed before running the main file (IDA_leader_follower.py) in the command line:
