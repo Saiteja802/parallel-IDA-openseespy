@@ -1,6 +1,9 @@
+# <h1 style="font-size: 3.2em; font-weight: bold;">Parallel computing module for incremental dynamic analysis</h1>
+
 Please cite the following article if you are using this code: 'Sistla S, Chandramohan R, Sullivan TJ. Loss-oriented hazard-consistent incremental dynamic analysis. Structural Safety. 2026 Jan 28;102692.'
 
-General Notes: Incremental dynamic analysis using OpenSeespy and leader-follower architecture
+<h2 style="font-size: 2em; font-weight: bold;"> General Notes: Incremental dynamic analysis using OpenSeespy and leader-follower architecture</h2>
+
 This document is intended to help users interested in conducting incremental dynamic analysis (IDA) using parallel computing. The example code (IDA_leader_follower.py) can be used to conduct IDA of a building model using the leader-follower architecture to efficiently run analysis in parallel. 
 The following packages are to be installed before running the main file (IDA_leader_follower.py) in the command line:
 1. Install mpiexec using the following link
@@ -15,7 +18,8 @@ Note2: Leader-follower architecture is a sort of a centralized load balancing sc
   *	https://www.geeksforgeeks.org/master-slave-architecture/ 
   *	https://medium.com/@cpsupriya31/understanding-master-slave-architecture-uses-and-challenges-2acc907de7c4
 
-Instrcutions to use the code:
+<h2 style="font-size: 2em; font-weight: bold;"> Instrcutions to use the code:</h2>
+
 1. Prepare the required files to conduct MSA using your model. The required files are:
 	* Canti2DEQ.py 
 		* This is an example linear elastic cantilever example from the OpenSeespy website (https://openseespydoc.readthedocs.io/en/latest/src/Canti2DEQ.html). 
